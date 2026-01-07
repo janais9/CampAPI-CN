@@ -83,3 +83,25 @@ StudentsController manages student names and supports GET, POST, and DELETE oper
 - Practice building RESTful endpoints
 - Understand routing and request handling
 - Prepare for future integration with a real database such as SQL Server or Entity Framework Core
+
+---
+ ## 🚀 Try It!!
+
+1. Make sure you have ** 8 or higher** in VS
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/CampAPI-CN.git
+   ```
+3. OR Try it by :
+> camps
+ ```bash
+GET     https://localhost:7198/api/camps
+POST    https://localhost:7198/api/camps
+DELETE  https://localhost:7198/api/camps/{campName}
+```
+ > students
+```bash
+GET     https://localhost:7198/api/students
+POST    https://localhost:7198/api/students
+DELETE  https://localhost:7198/api/students/{studentName} 
+```
