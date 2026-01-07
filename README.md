@@ -24,16 +24,20 @@ All operations related to adding, retrieving, and deleting camps are handled thr
 #### GET /api/camps  
 Returns all camps stored in memory.  
 If no camps exist, an empty list is returned.
+![App Screenshot](https://raw.githubusercontent.com/janais9/CampAPI-CN/main/G.C.png)
 
 #### POST /api/camps  
 Accepts a camp name (string) from the request body and adds it to the list.  
 Returns a confirmation message:
 Added camp: <camp name>
+![App Screenshot](https://raw.githubusercontent.com/janais9/CampAPI-CN/main/P.C.png)
+
 
 #### DELETE /api/camps/{campName}  
 Deletes a camp by its name.  
 If the camp exists, it is removed successfully.  
 If the camp does not exist, a NotFound response is returned.
+![App Screenshot](https://raw.githubusercontent.com/janais9/CampAPI-CN/main/D.C.png)
 
 ### CampsController Notes
 - Uses List<string> as a temporary data store
@@ -48,16 +52,20 @@ It follows the same logic and structure as CampsController but operates on stude
 ### Available Endpoints
 #### GET /api/students  
 Returns all students stored in memory.
+![App Screenshot](https://raw.githubusercontent.com/janais9/CampAPI-CN/main/G.S.png)
 
 #### POST /api/students  
 Accepts a student name (string) from the request body and adds it to the list.  
 Returns a confirmation message:
 Added student: <student name>
+![App Screenshot](https://raw.githubusercontent.com/janais9/CampAPI-CN/main/P.S.png)
+
 
 #### DELETE /api/students/{studentName}  
 Deletes a student by name.  
 If the student exists, it is removed successfully.  
 If the student does not exist, a NotFound response is returned.
+![App Screenshot](https://raw.githubusercontent.com/janais9/CampAPI-CN/main/D.S.png)
 
 ### StudentsController Notes
 - Uses in-memory storage only
